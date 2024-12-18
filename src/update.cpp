@@ -5922,7 +5922,7 @@ List Merge(arma::rowvec w,
   arma::rowvec R_new(m);
   R_new = R;
   for(int i=0; i<m; i++){
-    if((R(i)>id1) & (R(i)<id2)){
+    if((R(i)>id1) && (R(i)<id2)){
       R_new(i)= R(i) -1;
     }
     if((R(i)>id2)){
@@ -5958,7 +5958,7 @@ List Merge(arma::rowvec w,
   double ratio_propose = 0;
   for(int i=0; i<q; i++){
     beta(i) = (gamma_new(i) - gamma_1(i)) * std::sqrt(alpha/(1-alpha));
-    if((beta(i)<1) & (beta(i)>0)){
+    if((beta(i)<1) && (beta(i)>0)){
       ratio_propose += R::dbeta(beta(i),2,2,true);
     }
   }
@@ -6166,7 +6166,7 @@ List Mergenomiss(arma::rowvec w,
   arma::rowvec R_new(m);
   R_new = R;
   for(int i=0; i<m; i++){
-    if((R(i)>id1) & (R(i)<id2)){
+    if((R(i)>id1) && (R(i)<id2)){
       R_new(i)= R(i) -1;
     }
     if((R(i)>id2)){
@@ -6202,7 +6202,7 @@ List Mergenomiss(arma::rowvec w,
   double ratio_propose = 0;
   for(int i=0; i<q; i++){
     beta(i) = (gamma_new(i) - gamma_1(i)) * std::sqrt(alpha/(1-alpha));
-    if((beta(i)<1) & (beta(i)>0)){
+    if((beta(i)<1) && (beta(i)>0)){
       ratio_propose += R::dbeta(beta(i),2,2,true);
     }
   }
@@ -7305,7 +7305,7 @@ List Merge_empty(arma::rowvec w,
   arma::rowvec R_new(m);
   R_new = R;
   for(int i=0; i<m; i++){
-    if((R(i)>id1) & (R(i)<id2)){
+    if((R(i)>id1) && (R(i)<id2)){
       R_new(i)= R(i) -1;
     }
     if((R(i)>id2)){
@@ -7341,7 +7341,7 @@ List Merge_empty(arma::rowvec w,
   double ratio_propose = 0;
   for(int i=0; i<q; i++){
     beta(i) = (gamma_new(i) - gamma_1(i)) * std::sqrt(alpha/(1-alpha));
-    if((beta(i)<1) & (beta(i)>0)){
+    if((beta(i)<1) && (beta(i)>0)){
       ratio_propose += R::dbeta(beta(i),2,2,true);
     }
   }

@@ -19,7 +19,7 @@ There are undocumented functions which are called by these.
 R version >= 3.4.3. Packages \code{Rcpp} and \code{RcppArmadillo} are used so that complicated functions are implemented in C++ to speed up.
 }
 \section{Version}{
-This is version 1.0.
+This is version 0.1.2.
 }
 \author{
 Yuliang Li (Dept Applied Mathematics and Statistics, Johns Hopkins University, USA) and
@@ -32,3 +32,4 @@ Please send comments, error reports, etc. to the maintainer (Yuliang) via email.
 This package and its documentation are usable under the terms of the "GNU
 General Public License", a copy of which is distributed with the package.
 }
+\value{This is the summary page. No return value.}

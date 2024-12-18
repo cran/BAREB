@@ -1,11 +1,11 @@
-4d1c49afa3fb9ded9db8e212b4442635 *DESCRIPTION
+790d9a034cee3780227f3334df08bef9 *DESCRIPTION
 2f0e9b14ea5ea515eb179c96e9edb978 *NAMESPACE
 024c426c6e4353d419ec36e0e16b6d20 *R/RcppExports.R
 d82144bafed670e6be29868e04f09e2d *R/updates.R
 e14f6fa1da27dfd54a09a59c87965faf *data/Init.rda
 6e4de981ca7ca2d290a3c0a4c18d5f21 *data/obs.rda
 14cb30c0e2998b50efe063a4a78e8715 *data/truth.rda
-370795e6f1c6f6b982510dda5e160700 *man/BAREB.Rd
+68952c07b659c0cafaf7691c64cc95bb *man/BAREB.Rd
 80f9b07ca3145361f9d6d012f1fe568b *man/Init.Rd
 bd9906567fa4a113aabaa6237ececaf3 *man/RJi.Rd
 eae60369d8b9158c17f02189359f0d44 *man/RJi_empty.Rd
@@ -29,9 +29,8 @@ fdff93ad50035ec1065ab46517194999 *man/update_theta_gamma.Rd
 dd0ad14c5990051246e724a39a6da1f7 *man/update_w_beta.Rd
 6d6e6adfe3305112bcf6e9644056a39b *man/updatemu.Rd
 7f78c258460a3691211b84a61e9c6908 *man/updatemustar.Rd
-79ece2888d9ff9cdbbf0eb57366ff1f4 *src/Makevars
-2a6f9e9e044a78154d3cfda5936d6f48 *src/Makevars.dms
-2a6f9e9e044a78154d3cfda5936d6f48 *src/Makevars.win
-fc69d4fd6216f3712ac566b9245960d5 *src/RcppExports.cpp
-176ae27431a8652b164f258a07053008 *src/update.cpp
+e62585629948e7dd143efbad43c2a6eb *src/Makevars
+e62585629948e7dd143efbad43c2a6eb *src/Makevars.win
+d271fe094b4a6a85075cfd22d2221183 *src/RcppExports.cpp
+5c8b60d8a322061bf4b8ea740a901fa2 *src/update.cpp
 b96617c12128140c4d7ed250292caca6 *src/update.h

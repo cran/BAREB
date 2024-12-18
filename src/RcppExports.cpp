@@ -6,6 +6,11 @@
 
 using namespace Rcpp;
 
+#ifdef RCPP_USE_GLOBAL_ROSTREAM
+Rcpp::Rostream<true>&  Rcpp::Rcout = Rcpp::Rcpp_cout_get();
+Rcpp::Rostream<false>& Rcpp::Rcerr = Rcpp::Rcpp_cerr_get();
+#endif
+
 // kernelC
 double kernelC(arma::rowvec x, arma::rowvec y, double theta, double tau);
 RcppExport SEXP _BAREB_kernelC(SEXP xSEXP, SEXP ySEXP, SEXP thetaSEXP, SEXP tauSEXP) {
